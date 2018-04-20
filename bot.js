@@ -17,5 +17,17 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content === 'Sebbe') {
+    	message.reply('Han kanske svarar snart..');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === '@Sebbe') {
+    	message.reply('Han kanske svarar snart..');
+  	}
+});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
