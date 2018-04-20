@@ -30,7 +30,7 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.content === '@Sebbe ⚓') {
+    if (message.content === '@Sebbe#0582') {
     	message.reply('Han kanske svarar snart..');
   	}
 });
